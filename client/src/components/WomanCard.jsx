@@ -39,10 +39,10 @@ function WomanCard(props) {
                         <Card className={classes.card}>
                             <div className={classes.cardDetails}>
                                 <CardContent>
-                                    <Typography component="h2" variant="h5" data-testid='players-name'>
+                                    <Typography component="h2" variant="h5">
                                         {players.name}
                                     </Typography>
-                                    <Typography component="h2" variant="h5" data-testid='players-country'>
+                                    <Typography component="h2" variant="h5">
                                         {players.country}
                                     </Typography>
                                 </CardContent>
