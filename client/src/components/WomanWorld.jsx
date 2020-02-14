@@ -1,6 +1,6 @@
 import React from "react";
 
-//import cards to github user component
+//import woman card component
 import WomanCard from "./WomanCard";
 
 // import Nav Bar
@@ -35,7 +35,7 @@ class GithubUser extends React.Component {
             .catch(err => console.log(err));
     }
 
-    // render user and user's follower on the page.
+    // render woman players on the page.
     render() {
         return (
             <Container maxWidth="lg">
