@@ -11,9 +11,9 @@ const Navbar = () => {
         setDarkMode(!darkMode);
     };
     return (
-        <nav className="navbar">
+        <nav className="navbar" data-testid='navbar'>
             <h1>Woman World Cup</h1>
-            <div className="dark-mode__toggle">
+            <div className="dark-mode__toggle" data-testid='dark-mode_toggle'>
                 <div
                     onClick={toggleMode}
                     className={darkMode ? "toggle toggled" : "toggle"}
