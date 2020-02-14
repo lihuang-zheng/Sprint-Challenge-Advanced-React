@@ -3,6 +3,9 @@ import React from "react";
 //import cards to github user component
 import WomanCard from "./WomanCard";
 
+// import Nav Bar
+import NavBar from "./NavBar"
+
 // import axios to grab data from api
 import axios from "axios";
 
@@ -36,13 +39,8 @@ class GithubUser extends React.Component {
     render() {
         return (
             <Container maxWidth="lg">
-                <header className="Woman-header">
-                    <h1>Woman World Cup</h1>
-                </header>
-
-                <main>
-                    <WomanCard players={this.state.players} />
-                </main>
+                <NavBar />
+                <WomanCard players={this.state.players} />
             </Container>
         );
     }
