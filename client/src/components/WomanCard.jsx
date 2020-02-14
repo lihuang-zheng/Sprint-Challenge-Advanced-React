@@ -12,7 +12,6 @@ import CardContent from "@material-ui/core/CardContent";
 const useStyles = makeStyles({
     card: {
         display: "flex",
-        padding: "10px",
         margin: "20px 0",
         backgroundColor: "#f2f2f2"
     },
